@@ -1,4 +1,5 @@
-// Sort Colors
+// https://leetcode.com/problems/sort-colors/description/
+// same as sort an array of 0s, 1s ans 2s
 
 class Solution {
 public:
