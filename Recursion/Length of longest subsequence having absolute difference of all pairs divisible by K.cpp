@@ -45,7 +45,7 @@ int maxi = 0; // global space;
 
 void solve(int idx, vector<int>&arr, vector<int>aux, int k) {
     
-    if(idx == arr.size()) //edgs case  
+    if(idx == arr.size()) //edge case  
     {
         if(maxi < aux.size()) 
             maxi = aux.size();
