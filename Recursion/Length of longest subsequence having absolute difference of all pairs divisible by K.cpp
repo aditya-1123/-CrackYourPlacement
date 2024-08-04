@@ -1,11 +1,20 @@
-// i/p : arr[] = {10, 12, 16, 20, 32, 15}, K = 4  
-// o/p : 4 
-// The Longest subsequence in which the absolute difference of each pair divisible by K (= 4) are {12, 26, 20, 32}.
+/*
+i/p : arr[] = {10, 12, 16, 20, 32, 15}, K = 4  
+o/p : 4 
+The Longest subsequence in which the absolute difference of each pair divisible by K (= 4) are {12, 26, 20, 32}.
 
-// i/p : arr[] = {1, 1, 2}, k=3
-// o/p : 2
+i/p : arr[] = {1, 1, 2}, k=3
+o/p : 2
 
-// 1) using hashing 
+
+1) using hashing 
+If arr[i] % K = arr[j] % K                     
+=> abs(arr[i] – arr[j]) % K must be 0.
+
+- Initialize an array, say hash[K] to store the frequency of arr[i] % K.
+- Traverse the hash[] array and find the maximum element in hash[] array.
+- Finally, print the maximum element of the hash[] array.
+                                                                             */
 int maxLenSub(int arr[], int N, int K)
 {
 	int hash[K];
