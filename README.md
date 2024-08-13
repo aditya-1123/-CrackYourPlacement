@@ -1,4 +1,2 @@
 # -CrackYourPlacement
-Solving DSA sheet for my upcoming placements. 
-
-Taken the challenge to solve 4-5 questions daily. 
+DSA questions for revision during the placements.  
